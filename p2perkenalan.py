@@ -1,6 +1,6 @@
 class Mahasiswa :
-    nim = 0
-    nama = ""
+    nim = 14022500058
+    nama = "Revaldo Fauzi"
 
     def perkenalan(self):
         print(f"Halo nama saya {self.nama}")
@@ -9,6 +9,6 @@ class Mahasiswa :
         print(f"Halo {self.nama}, nama saya {nama}")
 
 mahasiswa = Mahasiswa ()
-mahasiswa.nama = "Alfa"
+mahasiswa.nama = "Revaldo Fauzi"
 mahasiswa.perkenalan()
 mahasiswa.hello("Alex")

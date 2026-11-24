@@ -1,6 +1,6 @@
 class Mahasiswa:
-    nim = 0
-    nama = ""
+    nim = 14022500058
+    nama = "Valdo"
 
     def __init__(self, nama, nim): 
         self.nama = nama
@@ -8,6 +8,6 @@ class Mahasiswa:
 
 
 
-mhs = Mahasiswa("Alfa","14022500076")
+mhs = Mahasiswa("Valdo","14022500058")
 print(mhs.nama)
 print(mhs.nim)
